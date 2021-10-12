@@ -1,0 +1,77 @@
+.offering{
+text-align: center;
+text-shadow:0px 0px 2px red, 0px 0px 2px yellow;
+font-weight: 900;
+text-decoration-line: overline underline;
+text-decoration-style: wavy;
+text-decoration-color: red;
+font-size: 50px;
+letter-spacing: 5px;
+}
+.child{
+    font-weight:700 ;
+    text-decoration-line: line-through;
+    text-decoration-color: darkred;
+    color: mediumblue;
+
+}
+.para{
+    font-size:18px;
+    letter-spacing: 2px;
+}
+
+ 
+
+.abc{
+    
+    width:100%;
+    margin-top: 40px;
+    
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./../Squeezy.jpg");
+    background-position: center;
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+    /*background-image: linear-gradient(180deg, red, red 10% , green,green 40% ,rgb(68, 0, 255) 70%);*/
+    background-image: radial-gradient(circle closest-side, yellow,green,red );
+}
+.border{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(82, 87, 82);
+    border-width: 1px;
+    border-style:solid;
+    border-color:blue;
+    border-radius:5%;
+    box-shadow: 0px 0px 5px 0px, 0px 0px  5px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 100;
+}
+.card-cta{
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    color: white;
+    border-width: 1px;
+    font-size: 12px;
+    background-color:magenta;
+    outline: 0px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px magenta, -1px -1px 2px magenta;
+    transform: 2sec;
+    
+}
+
+.card-cta:hover{
+background-color: maroon;
+}
+.card-cta:active{
+transform: scale(1.05,1.05);
+}
+body{
+    background-color: yellow;
+    background-position: 20px 20px;
+}

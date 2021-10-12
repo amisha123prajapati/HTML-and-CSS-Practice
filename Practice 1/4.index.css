@@ -1,0 +1,17 @@
+.price-container{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-around;
+    
+    
+}
+.price-card{
+    width: 1000px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 10px;
+}

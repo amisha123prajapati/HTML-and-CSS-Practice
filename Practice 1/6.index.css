@@ -1,0 +1,54 @@
+.one{
+width: 100px;
+height: 100px;
+background-color: red;
+border: 2px solid black;
+margin: 50px;
+transition: width 2s linear;
+transition-property: background-color;
+transition-duration: 1s;
+transition-delay: 0s;
+transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+transition:transform 3s ;
+
+
+}
+.one:hover{
+width: 200px;
+background-color: blue;
+transform: translate(30deg);
+
+}
+.two{
+    width: 100px;
+    height: 100px;
+background-color: green;
+border: 2px solid black;
+margin: 100px;
+transition: transform 10s;
+
+
+}
+
+.two:hover{
+width: 200px;
+background-color: crimson;
+transform: translate(30deg);
+
+}
+.three{
+width: 100px;
+height: 100px;
+background-color: yellow;
+border: 2px solid black;
+margin: 50px;
+transition: width 10s ,height 10s;
+
+
+}
+.three:hover{
+width: 200px;
+height: 200px;
+background-color: darkmagenta;
+transform: translate(30deg,30deg);
+}

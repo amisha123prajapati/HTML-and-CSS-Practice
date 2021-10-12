@@ -1,0 +1,50 @@
+h1{
+    background-color: rgb(160, 160, 151);
+    color: lawngreen;
+    margin : 50px;
+    padding-left: 100px;
+    padding-top:150px;
+    display: inline;
+   }
+   h2{
+       display: inline;
+   }
+
+   p{
+    margin: 50px;   
+
+   }
+   
+   .copy-right{
+       color: purple;
+       background-color: red;
+   }
+   .description{
+       color: salmon;
+       background-color: springgreen;
+   }
+   .para{
+       color: white;
+       background-color: yellow;
+   }
+   #surya{
+    color: blue;
+    background-color: crimson;
+}
+
+.primary-text-container{
+    visibility: hidden;
+
+}
+.primary-text{background-color: red;
+    width: 500px;
+    display: inline-block;
+    visibility: initial;
+
+}
+.secondry-text{
+    background-color: green;
+    height: 500px;
+    display: inline-block;
+}
+
